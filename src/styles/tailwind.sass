@@ -1,0 +1,38 @@
+@tailwind base
+@tailwind utilities
+@tailwind components
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap')
+
+* 
+  font-family: Rubik, sans-serif
+
+#app 
+  @apply bg-very-light-gray lg:p-10
+
+.chat-shadow
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14)
+
+textarea
+  @apply border border-dark-blue w-full appearance-none flex-grow flex p-2 h-20 text-sm rounded-md
+
+.chat-container 
+
+  @apply py-2
+
+  &.reply
+    @apply pl-4 md:ml-9 border-l-2 my-0 border-l-light-gray
+
+  .chat-component
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14)
+    @apply bg-white flex flex-col-reverse py-5 px-5 gap-x-6 gap-y-4 rounded-lg
+    &:not(.replying)
+      @apply md:flex-row
+    &:not(.replying)>div:first-child
+      @apply flex justify-between items-center
+  
+.score-input 
+  @apply h-10 w-28 md:h-28 md:w-10 flex flex-row md:flex-col flex-shrink md:flex-shrink-0 items-center justify-center bg-very-light-gray rounded-lg
+  button
+    @apply h-full w-2/5 md:h-2/5 md:w-full grid place-items-center text-greyish-blue hover:text-moderate-blue font-bold
+  div
+    @apply h-full w-3/5 md:h-3/5 md:w-full grid place-items-center font-bold text-moderate-blue bg-transparent
