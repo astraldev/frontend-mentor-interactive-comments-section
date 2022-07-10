@@ -34,8 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [interactive-comment-section](https://frontendmentor-interactive-comment-section-astraldev.vercel.app)
 
 ## My process
 
@@ -60,8 +59,8 @@ I would like to add a date formatter and animations.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/astraldev)
-- Twitter - [@yourusername](https://www.twitter.com/ekureedem)
+- Frontend Mentor - [@astraldev](https://www.frontendmentor.io/profile/astraldev)
+- Twitter - [@ekureedem](https://www.twitter.com/ekureedem)
 
 ## Acknowledgments
 
